@@ -1,0 +1,852 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "e2e5b03e-1fcd-11eb-8ed1-c8b29b3d6a4e",
+    "deck_config_uuid": "b909547e-1fcc-11eb-8ed1-c8b29b3d6a4e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": false,
+            "crowdanki_uuid": "b909547e-1fcc-11eb-8ed1-c8b29b3d6a4e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    20,
+                    1440
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.5
+            },
+            "maxTaken": 240,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    20,
+                    1440
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    3,
+                    7,
+                    7
+                ],
+                "order": 1,
+                "perDay": 100,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 1000
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 2,
+    "extendRev": 50,
+    "media_files": [
+        "IMG_2684.jpg",
+        "IMG_2736.jpg",
+        "IMG_2870.jpg",
+        "_topology_mindmap.png",
+        "a_basis_for_every_basis.jpg",
+        "eballs_on_open_and_closed_sets.JPG",
+        "function_continuity_in_metric_space.jpg",
+        "metric_space_sequence_convergence.jpg",
+        "multiple_convergence.jpg",
+        "paste-2617869628f09aac0ef204b06ffd8701916d923f.jpg",
+        "paste-9dbf2687cacd3dfcda1d5b52744c397f8ac3afac.jpg",
+        "paste-b97bb1ab2c1ba963e7fe7275bbcf427bdb5deb44.jpg",
+        "paste-d49314017c50ef0168211beba335e0b7fb9c22b1.jpg",
+        "paste-de987fb5b620662eae8fb78a1084ccf1ea5143b6.jpg",
+        "scumunkres.png",
+        "three_metrics1.png"
+    ],
+    "mid": 1557817536999,
+    "name": "Math and science::Topology",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "css": "\n#deck{\nmargin-bottom:2em;\nmargin-top:0em;\ncolor: #6c71c4;\nfont-size: 13pt;\n}\n\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 12.5pt;\n    text-align: left;\n    color: #D7DEE9;\n    line-height: 1.6em;\n    background-color: #333B45;\n    max-width:800px;\n    margin: auto;\n    padding-bottom: 3em;\n    padding-top: 2em;\n    padding-left: 1em;\n    padding-right: 1em;\n}\n\nimg {\nmax-width: 750px;\n}\n\nimg.small {\nmax-width: 400px;\ndisplay: block;\nmargin: auto;\n}\n\n.recap img {\nmax-width:100%;\n}\n\nimg.masked-img {\nfilter: blur(8px)  opacity(50%);\n}\n\n.cloze {\n    /*font-weight: bold;*/\n    color: MediumSeaGreen; }\n\n/* Bold underline, italic and link styles. */\nb { \n    color: #C695C6 !important;\n} \nu { \n    text-decoration: none; \n    color: #5EB3B3;\n}\na { \n    color: LightGray; \n    font-style: normal;\n}\n\n\n/* For mobile. */\n.mobile .card { \n    color: #D7DEE9; \n    background-color: #333B45; \n}\n \n.mobile .tags:hover { \n    opacity: 1; \n    position: relative;\n}\n\nh1, h2, h3, h4, h5 {\n    text-align:center;\n    margin-bottom: 1em;\n    margin-top: 2.5em;\n}\n\nh1 {\n    font-size: 18pt;\n    font-weight: normal;\n    font-family: san-serif;\n    margin-top: 0; /* To cancel the above rule. */\n}\n\nh2 {\n    font-size: 16pt;\n    font-weight: normal;\n}\n\nh3 {\n    font-size: 15pt;\n    font-weight: normal;\n}\n\nh4 {\n   font-size: 13.5pt;\n   font-weight: bold;\n   margin-bottom: 0.5em;\n}\n\np span.inline-heading {\n  text-decoration: underline;\n}\n\ndiv#example {\nmargin-top: 4em;\n}\n\ndiv#back_only {\nmargin-top:2em;\n}\n\n/* For text that reveals to much on the front side, \nbut isn't really meant to be guessed as a cloze. */\n#front .back-only {\nfilter: blur(3px) opacity(25%);\n/* Alternatively: */\n/* visibility: hidden; */\n}\n\nhr#source {\n\tmargin-top: 6em;\n}\n\n.update_note {\ncolor: #8DB2D7;\nfont-style:oblique;\n}\n\n.em2 {\ncolor: #75EFEF;\n}\n\nem.def {\ncolor: #ffff77;\n}\n\n.def .cloze {\ncolor: #ffff77;\n  text-decoration: underline;\n  text-decoration-color: MediumSeaGreen;\n} \n\ndiv.theorem, div.definition, div.lemma, div.proposition {\n   background: #4C3D45;\n   //background: #444C56;\n   padding: 0.5em 1em 0.5em 1em;\n   max-width: 620px;\n    color: #E7EEF9;\n  /* margin: auto; */\n   margin: 2em 3em 2em 3em;\n}\n\n.nightMode div.theorem, .nightMode div.definition, .nightMode div.lemma, .nightMode div.proposition {\n  //background: #5C3837; //progressively lighter-> #5E3636;//#6B3E3D;//#704140;\n background: #523333;\n} \n\ndiv.minor_lemma, div.minor_definition, div.minor_theorem {\n  font-size: 95%;\n  border:1px solid #999;\n  padding: 0em 2em 1.0em 2em;\n  margin: 2.5em 3em 2em 3em;\n}    \n\n/** em_recap seems like a bad name. Switching to just recap. **/\ndiv.em_recap, div.recap, div.remark {\n  font-size: 85%;\n  border:1px solid #999;\n  padding: 0em 2em 1.0em 2em;\n  margin: 2.5em 3em 2em 3em;\n}    \n\ndiv.remark {\n   padding-top: 0.5em; /* was previously 1.0em. Not sure why. */\n   color: #CCCC;\n}\n\ndiv.recap h4, div.remark h4 {\nmargin-top: 0.8em;\n}\n\n.boxed {\nborder: 1px solid #999;\npadding: 0em 2em 1.0em 2em;\nmargin: 2em 3em;\n}\n\n.larger_eq {\nfont-size: 110%;\n}\n\n.em_recap h4, .recap h4, .minor_lemma h4, .minor_definition h4 {\n\tmargin-top: 1em;\n}\n.proposition h3, .lemma h3, .lemma h4, .definition h3, .definition h4, .theorem h3, .theorem h4 {\n   margin-top: 0.5em;\n}\n\n/* Remarks within a paragraph. */\np.remark, span.remark {\n  color: #CCCC;\n  font-size: 85%;\n}\n\n/* Update: 'block_eq' isn't needed anymore. Custom JS handles it instead */\n/* This is sometimes used when we want a block latex AND to use cloze hints.\nUsing both causes the front side to wrap the hint version in square brackets *before* the\nnewlines are added for the block quality of \\[ \\] latex blocks.*/\ndiv.block_eq {\n    display:block;\n    text-align:center;\n}\n\n\n\nol.lower_alpha > li {\n  list-style-type: lower-alpha;\n}\n\ndl.horizontal {\n  display: grid;\n  grid-template-columns: fit-content fit-content;\n  grid-row-gap: 0.8em; \n}\n\n\ndl.horizontal dt {\n  grid-column-start: 1;\n}\n\ndl.horizontal dd {\n  grid-column-start: 2;\n}\n<!-- yellow is a nice color to use, btw -->",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Title",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "BackOnlyText",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Example",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Source",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Order",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Context",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\usepackage{tikz-cd}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\n\n\\newcommand{\\binomialCoeff}[2]{\n\\begin{pmatrix}#1\\\\#2\\end{pmatrix}}\n\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Math Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 5,
+            "tags": [
+                "todo"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<div style=\"display:none\">\\(\n\\newcommand{\\cat}[1] {\\mathrm{#1}}\n\\newcommand{\\catobj}[1] {\\operatorname{Obj}(\\mathrm{#1})}\n\\newcommand{\\cathom}[1] {\\operatorname{Hom}_{\\cat{#1}}}\n\\)</div>\n\n<div id='deck'>\n{{Deck}}\n</div>\n{{#Title}}\n<h1>{{Title}}</h1>\n{{/Title}}\n\n\n{{cloze:Text}}\n<br>\n\n\n{{#BackOnlyText}}\n<div id='back_only'>\n<p>\n{{BackOnlyText}}\n</p>\n</div>\n{{/BackOnlyText}}\n\n\n{{#Example}}\n<div id='example'>\n<h3>Example</h3>\n<p>\n{{Example}}\n</p>\n</div>\n{{/Example}}\n\n{{#Context}}\n<div id='context'>\n<h2>Context</h2>\n{{Context}}\n</div>\n{{/Context}}\n\n\n<div id='source'>\n{{#Source}}\n<hr id='source'/>\n<h4>Source</h4>\n{{Source}}\n{{/Source}}\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<div style=\"display:none\">\\(\n\\newcommand{\\cat}[1] {\\mathrm{#1}}\n\\newcommand{\\catobj}[1] {\\operatorname{Obj}(\\mathrm{#1})}\n\\newcommand{\\cathom}[1] {\\operatorname{Hom}_{\\cat{#1}}}\n\\)</div>\n\n<div id='front'>\n<div id='deck'>\n{{Deck}}\n</div>\n{{#Title}}\n<h1>{{Title}}</h1>\n{{/Title}}\n\n{{cloze:Text}}\n</div>\n\n<script>\n// https://jsfiddle.net/topospeaker/bhnmLxge/10/\nfunction reformatBlockMathJaxInCloze() {\n    var mathBlocks = document.querySelectorAll('span.cloze .MJXc-display');\n    console.log(mathBlocks.length);\n    for(var i = 0; i < mathBlocks.length; i++) {\n        cloze = mathBlocks[i].closest('span.cloze');\n        cloze.style.display = 'block';\n        cloze.style.textAlign = 'center';\n        mathBlocks[i].style.display = 'inline';\n        mathBlocks[i].style.paddingLeft = '3em';\n        mathBlocks[i].style.paddingRight = '3em';\n        mathBlocks[i].style.lineHeight = '3em';\n    }\n  console.log(\"ran\");\n\n}\n\nsetTimeout(function() {MathJax.Hub.Queue(reformatBlockMathJaxInCloze)}, 0);\n/* Failed attempts:\nwindow.onload = function() {MathJax.Hub.Queue(reformatBlockMathJaxInCloze)};\n\n\ndocument.addEventListener('load', \n   (event)=> {\n       MathJax.Hub.Queue(reformatBlockMathJaxInCloze);\n   });\n\nwindow.addEventListener('load', (event) => {\n    reformatBlockMathJaxInCloze();\nsetTimeout(function() {MathJax.Hub.Queue(reformatBlockMathJaxInCloze)}, 1000);\n});\n\nMathJax.Hub.Register.StartupHook(\"End\",function () {\n    reformatBlockMathJaxInCloze();\n}); */\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Metric space",
+                "<div class=\"definition\">\n<h4>Metric</h4>\n<p>\nA metric \\( d \\) on a set \\( X \\) is a function {{c1::\\( d : X \\times X \\to [0,\n\\infty) \\):: \\( d : \\text{what} \\to \\text{ to what?} \\)}} with the following three properties:</p>\n<dl>\n<dt>What is this called?</dt>\n<dd>\\( d(x, y) = 0 \\iff x = y, \\text{ for all } x, y \\in X \\)</dd>\n<dt>Triangle inequality</dt>\n<dd>{{c1::\\( d(x, y) + d(y, z) \\ge d(x, z), \\text{ for all } x, y, z \\in X \\)}}</dd>\n<dt>Symmetry</dt>\n<dd>\\( d(x, y) = d(y, x), \\text{ for all } x, y \\in X \\)</dd>\n</dl>\n</div>\n<p>A <em class=\"def\">metric space</em> is a set together with a metric on it, or more formally,\na pair \\( (X, d) \\) where \\( X \\) is a set and \\( d \\) is a metric on \\( X \\).\n</p>\n",
+                "",
+                "<p>Some interesting metrics</p>\n<h4>1. \\( d_1, d_2, d_\\infty \\) (instances of \\( d_p \\)) on \\( \\mathbb{R}^n \\)</h4>\n<p>For all \\( x = (x_1, ..., x_n) \\) and \\( y = (y_1, ..., y_n) \\) in \n\\( \\mathbb{R}^n \\) (or any subset thereof):</p>\n<ul>\n<li>The Euclidean metric, \\( d_2 \\) on \\( \\mathbb{R}^n \\) is given by: \\( d_2(x, y) = (\\sum_{i=1}^{n} (x_i - y_i)^2)^{\\frac{1}{2}} \\)</li>\n<li>\\( d_1 \\) is given by: \\( d_1(x, y) = \\sum_{i=1}^{n}|x_i - y_i| \\)</li>\n<li>\\( d_\\infty \\) by: \\( d_\\infty(x, y) = max_{1 \\le i \\le n}|x_i - y_i| \\)</li>\n</ul>\n<p>All these metrics are particular cases of the \\( d_p \\) metric.</p>\n<h4>2. \\( d_1, d_2, d_\\infty \\) (instances of \\( d_p \\)) on \\( C[a, b] \\))</h4>\n<p>All \\( d_p \\) metrics have parallels over function spaces. \\( C[a, b] \\) is \nthe set of continuous functions \\( [a,b] \\to \\mathbb{R} \\). Three interesting\nmetrics on \\( C[a, b] \\) are given by:</p>\n<p>\\[ d_1(f, g) = \\int_{a}^{b} |f(t) - g(t)|dt \\]</p>\n<p>\\[ d_2(f, g) = \\left( \\int_{a}^{b} |f(t) - g(t)|dt \\right)^{\\frac{1}{2}} \\]</p>\n<p>\\[ d_\\infty(f, g) = \\sup_{a \\le t \\le b}|f(t) - g(t)| \\]</p>\n<h4>3. Hamming metric</h4>\n<p>With \\( A \\) being any set, and \\( x, y \\in A^n \\), the Hamming metric \n\\( d \\) on \\( A \\) is given by</p>\n<p>\\( d(x, y) = |\\{i \\in \\{1, ..., n\\} : x_i \\ne y_i \\}| \\)</p>\n<p>In other words, the count of how many coordinates differ.</p>",
+                "",
+                "1.1.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "sM&?<GncMq",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Metric space. ε-balls",
+                "<div class=\"definition\">\n<p>\nLet \\( X \\) be a metric space, let \\( x \\in X \\) and let \n\\( \\varepsilon &gt; 0 \\) be a real. The <em class=\"def\">open ε-ball</em> around \n\\( x \\) (or in more detail, the open ball around \\( x \\) of radius \n\\( \\varepsilon \\)) is the subset of \\( X \\) given by\n</p>\n<div class=\"block_eq\">\n{{c1::\\(B(x, \\varepsilon) = \\{y \\in X : d(x, y) &lt; \\varepsilon \\} \\) :: \\( B(x, \\varepsilon) = \\{y \\in X : \\text{what condition?} \\} \\) }}</div>\n<p>Similarly, the <em class=\"def\">closed ε-ball</em> around \\( x \\) is\n</p>\n<div class=\"block_eq\">{{c1::\\(\\bar{B}(x, \\varepsilon) = \\{y \\in X : d(x, y) \\le \\varepsilon \\} \\)::\\( \\bar{B}(x, \\varepsilon) = \\{y \\in X : \\text{what condition?} \\} \\) }}\n</div>\n</div>",
+                "<p>The definition of <em>open sets</em> in metric spaces\nis formulated in terms of open ε-balls.</p>",
+                "<p>Metrics such as \\( d_1 \\), \\( d_2 \\) and \\( d_\\infty \\) for both \n\\( \\mathbb{R}^n \\) and continuous function spaces \\( C[a, b] \\), and\nother metrics such as Hamming distance, each induce ε-balls within the space \nthey are applied in. It is interesting to consider what the ε-ball in each\nmetric space is.\n</p><p><img src=\"three_metrics1.png\"><br></p>",
+                "",
+                "1.1.2",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "dK}H7B:cB?",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Metric space. Open and closed sets",
+                "<div class=\"definition\">\n<h3>Open and closed subsets</h3>\n<p>\nLet \\( X \\) be a metric space.\n</p>\n<dl>\n<dt>Open in \\( X \\)</dt>\n<dd>A subset \\( U \\) of \\( X \\) is open in \\( X \\) iff {{c1::for all \\( u \\in U \\),\nthere exists an \\( \\varepsilon &gt; 0 \\) such that \\( B(u, \\varepsilon) \\subseteq U \\)}}.\n</dd>\n<dt>Closed in \\( X \\)</dt>\n<dd>A subset \\( V \\) of \\( X \\) is closed in \\( X \\) iff {{c1::\\( X \\setminus V \\) is\nopen in \\( X \\)}}.\n</dd>\n</dl>\n<p>Tom Leinster describes the openness of \\( U \\):</p>\n<blockquote>Thus, \\( U \\) is open if every point of \\( U \\) has some elbow \nroom—it can move a little bit in each direction without leaving \\( U \\).</blockquote>\n</div>\n<h3>ε-balls</h3>\n<p>Open ε-balls are open, and closed ε-balls are closed. Consider trying to \nprove this. They are open on account of the definition of openness, not by\ntheir own definition alone, despite their names being suggestive.</p>",
+                "<h3>Open, closed, neither or both</h3>\n<p>Subsets of a metric space can be any combination of open and closed.</p><p><img src=\"scumunkres.png\"><br></p>\n<h3>Open subset, closed subset</h3>\n<p>There's no such thing as an open set that is not an open <em>subset</em>;  \\( U\n\\) is open <em>in</em> \\( X \\). The importance of this is that a set \\( U \\) may\nbe open in one space and not open in another. \\( [0, 1) \\) is not open in \\(\n\\mathbb{R} \\) but is open in  \\( [0, 2] \\).</p>",
+                "",
+                "Tom Leinster's Topology notes<div><a href=\"https://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf\">https://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf</a><br></div><div><br></div><div>Comic:</div><div><a href=\"https://abstrusegoose.com/394\">https://abstrusegoose.com/394</a><br></div><div>Comic is not edited. Webpage refers to the following license:&nbsp;<a href=\"https://creativecommons.org/licenses/by-nc/3.0/us/\">https://creativecommons.org/licenses/by-nc/3.0/us/</a></div>",
+                "1.1.3",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "E_=<-QORH$",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Metric space. Unions and intersections of open sets",
+                "<ul><li>{{c1::An arbitrary::An arbitrary or finite?}} union of open subsets is {{c1::open::open/closed?}}.</li>\n<li>{{c1::A finite::An arbitrary or finite?}} intersection of open subsets is {{c1::open::open/closed?}}.</li>\n<li>Special cases: \\( \\emptyset \\) and \\( X \\) are {{c1::both open and closed::open/closed?}}.</li>\n</ul>\n",
+                "<div class=\"lemma\">\n<h3>Lemma. Union and intersection of open sets</h3>\n<p>Let \\( X \\) be a metric space.</p>\n<ul>\n<li>Let \\( (U_i)_{i \\in I} \\) be a family (finite or not) of open subsets of \n\\( X \\). Then \\( \\bigcup_{i\\in I} U_i \\) is also open in X.\n</li>\n<li>\nLet \\( U_1 \\) and \\( U_2 \\) be open subsets of \\( X \\). Then \\( U_1 \\cap U_2 \\) \nis also open in X.\n</li>\n<li>Special cases \\( \\emptyset \\) and \\( X \\) are open also.</li></ul></div>\n<p><img src=\"paste-de987fb5b620662eae8fb78a1084ccf1ea5143b6.jpg\"><br></p><p>The mirror statements for closed sets are as follows.</p>\n<div class=\"lemma\">\n<h3>Lemma. Union and intersection of closed subsets</h3>\n<p>Let \\( X \\) be a metric space.</p>\n<ul>\n<li>\nLet \\( V_1 \\) and \\( V_2 \\) be closed subsets of \\( X \\). Then \\( V_1 \\cup V_2 \\) \nis also closed in X.\n</li>\n<li>\nLet \\( (V_i)_{i \\in I} \\) be a family (finite or not) of closed subsets of \n\\( X \\). Then \\( \\bigcap_{i\\in I} V_i \\) is also open in X.\n</li>\n</ul>\n<p>Special cases \\( \\emptyset \\) and \\( X \\) are also closed.</p>\n</div><div><br></div><img src=\"paste-d49314017c50ef0168211beba335e0b7fb9c22b1.jpg\">",
+                "",
+                "Tom Leinster's notes<div><a href=\"https://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf\">https://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf</a><br></div>",
+                "1.1.4",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "y0q#pSYj4Y",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Metric space. Sequence convergence",
+                "<div class=\"definition\">\n<h3>Sequence convergence, definition</h3>\n<p>Let \\( X \\) be a metric space, let \\( x_0 \\in X \\) and let \\( (a_n)_{n=1}^{\\infty} \\) be a \nsequence in \\( X \\).</p>\n<p>\\( (a_n)_{n=1}^{\\infty} \\) is said to converge to \\( x_0 \\) iff</p>\n<div class=\"block_eq\">\n{{c1::\\( \\lim_{n \\to \\infty} d(x_0, a_n) = 0 \\):: \\( \\lim_{?} ? = ? \\) }}\n</div>\n<p>{{c1::Unfolding the definition of a limit this becomes: \\( (a_n)_{n=1}^{\\infty} \\)\nconverges to \\( x_0 \\) iff for any \\( \\varepsilon &gt; 0 \\) there exists an\n\\( N \\ge 1 \\) such that for all \\( i \\ge N \\), \\( d(x_0, a_i) &lt; \\varepsilon \\).::unfolding the definition of limits, this becomes...}}\n</p>\n</div>\n<p><img class=\"small\" src=\"metric_space_sequence_convergence.jpg\"><em><br></em></p><p><em><br></em></p><p><em>This next result should be internalized</em>.&nbsp;</p>\n<div class=\"lemma\">\n<h3>Lemma. Closed iff {{c1::sequences converge inside::some property of sequences...}}</h3>\n<p>Let \\( X \\) be a metric space and \\( V \\subseteq X \\).</p>\n<p>Then \\( V \\) is closed in \\( X \\) \\( \\iff \\) {{c1::for all sequences \\( (x_n) \\) \nin \\( V \\) and all \\( x \\) in \\( X \\), if \\( (x_n) \\) converges to \\( x \\)\nthen \\( x \\in X \\).::some property of sequences...}}</p></div>\n<p>The proof was not immediately obvious to me. I did, however, find a way to visualize it, which I think makes the line of reasoning clear. Part of why the proof is important, I think, is that there are only two notions available from which the result needs to be derived: the definition of open sets and the definition of sequence convergence. So, it should be simple, yet it escapes an immediately obvious proof. Thus, I feel there is a mode of thinking that has its essence somewhat distilled into the line of reasoning.</p>",
+                "<img src=\"paste-2617869628f09aac0ef204b06ffd8701916d923f.jpg\">\n<p>The forward part of the proof corresponds to the idea that if you choose any point not within \\( V \\), then it will be in an open set, and\nthus, there is always some ε-ball around the point that is fully contained within the enclosing open set.\n</p>\n<p>The reverse part of the proof corresponds to the idea that if \\( V \\)\nis not closed, then \\( X \\setminus V \\) is not open, so that, somewhere on the boundary between \\( V \\) and \\( X \\setminus V \\), there must be a \"hard\" edge\non the \\( X \\setminus V  \\) side of the boundary and a \"soft\"/open edge on the \\( V \\) side. Because of this, any ε-ball around this point <em>must</em> spill into \\( V \\). By choosing successively smaller ε-balls, we can\nmake a sequence in \\( V \\) that converges to the point in \\( X \\setminus V \\).</p>\n<img src=\"eballs_on_open_and_closed_sets.JPG\">",
+                "",
+                "",
+                "1.1.5",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "u1LR{g,|3>",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Metric space. Function continuity",
+                "\n<div class=\"definition\">\n<h3>Function continuity between metric spaces</h3>\n<p>\nLet \\( X \\) and \\( Y \\) be metric spaces and let \\( f: X \\to Y \\) be a function.\nWe say that \\( f \\) is <em class=\"definition\">continuous</em> iff:\n</p>\n<p>\n    For all \\( x_0 \\in X \\) and for all \\( \\varepsilon &gt; 0 \\) there exists a {{c1::\\( \\delta &gt; 0 \\)}} such that ({{c1::\\( x \\in B(x_0, \\delta) \\)}} \\( \\implies \\) {{c1::\\( f(x) \\in B(f(x_0), \\varepsilon) \\)}}).\n</p>\n</div>\n<h3>Independence of metrics</h3>\n<p>The idea of continuity appears to depend on the notion of metric/distance \nas it is formulated using ε-balls. However, the following lemma reveals that \nthis is not really so—all that is needed is the notion of open (or closed)\nsubsets.</p>\n<div class=\"lemma\">\n<h4>Equivance to function continuity</h4>\n<p>Let \\( X \\) and \\( Y \\) be metric spaces and let \\( f : X \\to Y \\) be a \nfunction. The the following three statements are equivalent:\n</p>\n<ol>\n<li>\\( f \\) is continuous;</li>\n<li>for all open \\( U \\subseteq Y \\), {{c1::the preimage \\( f^{-1}U \\subseteq X \\) is open}};</li>\n<li>for all closed \\( V \\subseteq Y \\), {{c1::the preimage \\( f^{-1}V \\subseteq X \\) is closed}}.</li>\n</ol>\n<p>Informally: {{c1::'the preimage of an open set is open'::2. can be rephrased as...}}.</p>\n</div>\n<p class=\"remark\">Proof at the bottom of the back side.</p>\n<p>This result motivates the definition of a <em>topolgical space</em>.</p>",
+                "<h3>The transition to Topology</h3>\n<p>With function continuity as the target concept, what is the minimum \nset of ideas requiring construction before function continuity can be formulated?</p>\n<p>Without introducing the idea of a metric function, a space which we will call a <em class=\"definition\">topological space</em> will be defined as being a\nset \\( X \\) paired with a collection of subsets, to be called <em>open</em>\nsubsets. These subsets will be <em>defined</em> to satisfy the 3 properties that were previously <em>derived</em> for metric\nspaces:</p>\n<ol>\n<li>Arbitrary unions of open subsets are open.</li>\n<li>Finite intersections of open subsets are open.</li>\n<li>\\( \\emptyset \\) and \\( X \\) are open.</li>\n</ol>\n<p class=\"remark\">This formulation could equally have been done with closed \nrather than open subsets.</p>\n<p>After this restructuring, a function will be <em>defined</em> to be continuous\niff 'the preimage of an open set is open'.</p>\n<h3>Equivalence of Continuity, proof</h3>\n<p>Below is a proof for metric spaces of the equivalence of the three statements above regarding continuity. Below again is an attempt to visualize the line of reasoning.</p><p><img src=\"paste-9dbf2687cacd3dfcda1d5b52744c397f8ac3afac.jpg\"><br></p><p>The main 'trick' of the proof is to iterate through each \\( y \\in Y \\). Consider the ε-ball around each \\( y \\) that must be within \\( U \\), and then, by the assumption of our definition of continuity applying to \\( f \\), we can create an ε-ball around every \\( x' = f^{-1}(y) \\). The the union of all these ε-balls in \\( X \\) must be open.</p><p><img src=\"function_continuity_in_metric_space.jpg\"><br></p><p><br></p>",
+                "",
+                "",
+                "1.1.6",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "k%K-.?4Z.Y",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Topology and topological space. Definition",
+                "<div class=\"definition\">\n<p>\nA <em class=\"def\">topology</em> on a set \\( X \\) is a collection \n\\( \\mathcal{T} \\) of subsets of \\( X \\) with the following properties:\n</p>\n<dl class=\"horizontal\">\n<dt>T1</dt>\n<dd>Whenever \\( (U_i)_{i \\in I} \\) is a family (finite or not) of subsets of \n\\( X \\) such that \\( U_i \\in \\mathcal{T} \\) for all \\( i \\in I \\), then&nbsp; {{c1::\\( \\bigcup_{i \\in I} U_i \\in \\mathcal{T} \\)}}.</dd>\n<dt>T2</dt>\n<dd>Whenever \\( U_1, U_2 \\in \\mathcal{T} \\), then \n{{c1::\\( U_1 \\cap U_2 \\in \\mathcal{T} \\)}}.</dd>\n<dt>T3</dt>\n<dd>{{c1::\\( \\emptyset \\in \\mathcal{T} \\)::\\( \\text{something} \\in \\mathcal{T} \\)}} and {{c1::\\( X \\in \\mathcal{T} \\)::\\( \\text{something} \\in \\mathcal{T} \\)}}.</dd>\n</dl>\n<p>A <em class=\"def\">topological space</em> \\( (X, \\mathcal{T}) \\) is a pair \nconsisting of a set \\( X \\) together with a topology \\( \\mathcal{T} \\) on \n\\( X \\).\n</p></div>\n<p class=\"remark\">\nT3 can be derived from T1 and T2, and is not strictly necessary as an axiom; \nhowever, most treatments of the subject introduce the definition as this triplet\nof statements.</p>\n<h3>In relaxed words</h3>\n<p>T1 can be phrased as 'an arbitrary union of open subsets is open'. By\ninduction T2 can be phrased as 'a finite intersection of open subsets is open'.\n</p>\n<p>Combining these two then, a topology on \\( X \\) can be defined as 'a collection\nof {{c1::subsets of \\( X \\)::something}} that is {{c1::closed under::something something}} arbitrary unions and finite \nintersections'.</p>",
+                "",
+                "<h3>Discrete and indiscrete topologies</h3>\n<p>The discrete and indiscrete topologies are two important topologies \n(which can be defined for any set). With \\( X \\) being a set, then they are defined like so:</p>\n<ul>\n<li>the collection of <em>all</em> subsets of \\( X \\) is a topology on \\( X \\);\nit is called the <em class=\"def\">discrete topology</em>.</li>\n<li>the collection of subsets of \\( X \\) consisting of \\( X \\) and  \\( \\emptyset\n\\) is a topology on \\( X \\); it is called the <em class=\"def\">indiscrete\ntopology</em>.</li>\n</ul>\n<p>The name 'discrete' is intended to suggest indivisibility of parts—it is \nnot possible to arrive at a new topology by dividing elements of the \ndiscrete topology into smaller subsets (those smaller subsets must already be\nin the discrete topology).</p>\n<h3>Finite complement topology</h3>\n<p>Let \\( X \\) be a set. The collection \\( (U_i)_{i \\in I} \\) of subsets of \n\\( X \\) such that \\( X - U_i \\) is finite for all \\( i \\in I \\) forms a topology\non \\( X \\); it is called the <em class=\"def\">finite complement topology</em>.\nIt is worth checking that this collection of subsets does indeed meet the \ncriteria for being a topology.</p>\n<h3>Countable complement topology</h3>\n<p>A similar construction to the finite complement topology, the \n<em class=\"def\">countable complement topolgy</em> is the collection of subsets\nof a set \\( X \\) such that for each \\( U \\) in the collection, \\( X - U \\) \nis either countable (and thus infinite) or all of \\( X \\). Again, it's worth checking this is indeed a topology.</p>",
+                "",
+                "1.1.7",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "=jN5v@oc`",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Finer and coarser topologies",
+                "<p>We say that one topology \\( \\mathcal{T} \\) on \\( X \\) is \n<em class=\"def\">finer</em> than another  topology \\( \\mathcal{T}' \\) on \\( X \\) \niff {{c1::every member of \\( \\mathcal{T}' \\) is a member of \\( \\mathcal{T} \\)::in words...}}. \n\\( \\mathcal{T}' \\) is said to be  <em class=\"def\">coarser</em> than \n\\( \\mathcal{T} \\).</p>\n<p><em class=\"def\">Stronger</em> and <em class=\"def\">weaker</em> are alternative\nterminology for finer and coarser.</p>\n<p>\\( \\mathcal{T} \\) is <em>strictly</em> finer iff {{c1::\\( \\mathcal{T}' \\) is a proper subset.}}<br></p>\n<p>Symbolically,</p>\n<ul>\n<li>\\( \\mathcal{T} \\) is finer than \\( \\mathcal{T}' \\) ⟺ {{c1::\\( \\mathcal{T}' \\subseteq \\mathcal{T} \\)}}.</li>\n<li>\\( \\mathcal{T} \\) is strictly finer than \\( \\mathcal{T}' \\) ⟺ {{c1::\\( \\mathcal{T}' \\subset \\mathcal{T} \\)}}.</li>\n</ul><p></p>\n",
+                "<div class=\"lemma\">\n<h4>Lemma. A basis for every basis.</h4>\n<p>Let \\( X \\) be a set. Let \\( \\mathcal{T} \\) and \\( \\mathcal{T}' \\) be \ntopologies on \\( X \\) with bases \\( \\mathscr{B} \\) and \\( \\mathscr{B}' \\) \nrespectively. Then \\( \\mathcal{T} \\) is finer than \\( \\mathcal{T}' \\) iff\n</p><p>for each \\( x \\in X \\)\nand each basis element \\( B' \\in \\mathscr{B'} \\) containing \\( x \\), there is a\nbasis element \\( B \\in \\mathscr{B} \\) such that \\( x \\in B \\subseteq B' \\).</p>\n<p></p></div>\n<p>It should be easy to prove this. Refer to Munkres for a proof example.</p>\n<p>By this lemma, it can be seen how a topology induced by one metric can be\nequivalent to a topology induced by another.</p>\n<h4>A basis for every basis: alternative perspective</h4>\n<p>I think a better way of phasing the second part of the iff relationship is to say: every \\( b' \\in \\mathscr{B'} \\) can be expressed as a union of elements \\( b \\in \\mathscr{B} \\).</p>\n<img src=\"a_basis_for_every_basis.jpg\">",
+                "<p>For a set \\( X \\), the discrete topology is the finest topology while the\nindiscrete topology is the coarsest topology.</p>",
+                "",
+                "1.1.8",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "Fu@Ml*W`M`",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Neighbourhoods",
+                "<div class=\"definition\">\n<p>Let \\( X \\) be a set with topology \\( \\mathcal{T} \\). A\n<em class=\"def\">neighbourhood</em> of \\( x \\) is {{c1::an open subset of \\( X \\) \ncontaining \\( x \\)::a something that something}}.</p>\n</div>\n<p class=\"remark\">This is the definition according to Munkres. Tom Leinster \ngives a different definition that distinguishes between a 'neighbourhood' and \nan 'open neighbourhood'.</p>\n<p><em>Neighbourhood</em> is the closest we get to the metric space idea of open balls around\na point.</p>\n<p>The term <em>neighbourhood</em> packs a  noun-verb pair into a noun, which\nI think is part of why using it makes it easier to conceptualize compared to \n'open set containing \\( x \\)'.</p>",
+                "<p>The next lemma is of interest because it is a <em>lemma</em> expressed in the \nterms of topology that is in some sense an isomorphism of a <em>definition</em>\nthat appeared when formulating open sets in metric spaces. When defining open sets of a topology, for our definition we took the metric space's derived result of open sets being closed under arbitrary union and finite \nintersection. Now we have come to a derived result of topological spaces that\nmatches the founding definition of open sets in metric spaces. Isn't that an \ninteresting loop.</p>\n<div class=\"lemma\">\n<h3>Lemma. Open iff all elements have a neighbourhood subset</h3>\n<p>Let \\( X \\) be a topological space and \\( U \\subseteq X \\). Then \\( U \\) is\nopen in \\( X \\) iff for all \\( x \\in U \\), there is a neighbourhood of \\( x \\)\ncontained in \\( U \\).\n</p>\n</div>\n<p>For comparison, the definition of open sets for a metric space is copied\nbelow:</p>\n<div class=\"definition\">\n<h4>Metric space: Open subsets, definition</h4>\n<p>Let \\( X \\) be a metric space and \\( U \\subseteq X \\). Then \\( U \\) is open \nin \\( X \\) iff for all \\( u \\in U \\), there is a \\( \\varepsilon &gt; 0 \\) such that \n\\( B(u, \\varepsilon) \\subseteq U \\).</p>\n</div>",
+                "",
+                "",
+                "1.1.9",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "kXrOG/1(V*",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Closed subsets",
+                "<div class=\"definition\">\n<h3>Closed subsets, definition</h3>\n<p>Let \\( X = (X, \\mathcal{T}) \\) be a topological space. A subset \n\\( V \\subseteq X \\) is <em class=\"def\">closed</em> iff {{c1::\\( X \\setminus V \\in \\mathcal{T} \\)}}.</p>\n</div>\n<p>The below properties of closed sets can be derived.</p>\n<div class=\"lemma\">\n<h3>Lemma. {{c1::Finite unions and arbitrary intersections::hidden as it gives away the below cloze.}}</h3>\n<p>Let \\( X = (X, \\mathcal{T}) \\) be a topological space. Then</p>\n<ol>\n<li>Whenever \\( V_1 \\) and \\( V_2 \\) are closed subsets of \\( X \\), then\n{{c1::\\( V_1 \\cup V_2 \\)}} is also closed in X.</li>\n<li>Whenever \\( (V_i)_{i\\in I} \\) is a family (finite or not) of closed subsets\nof \\( X \\), then {{c1::\\( \\bigcap_{i \\in I}V_i \\)}} is closed in \\( X \\).\n</li><li>{{c1::\\( \\emptyset \\)::something}} and {{c1::\\( X \\)::something}} are closed subsets of \\( X \\).\n</li></ol>\n</div>\n<p>This lemma follows from the application of de Morgan's laws to the definition \nof a topological space.</p>",
+                "<h3>Degrees of fundamentalness</h3>\n<p>Closed sets and the idea of closedness should be viewed as equally\nfundamental compared to open sets and openness. While closed sets are presented\nas a derivative  concept when a topology is defined from open sets, the\nformulation could have  proceeded the other way, with closed sets coming first.\n<a href=\"http://math.uga.edu/~pete/TopSection3.pdf\">Kuratowski's closure \naxioms</a> are an example of such a formulation.&nbsp;</p><p>This point is pertinent to\nother concepts in topology also: while it is elegant to formulate ideas of\nclosedness, convergence, continuity, and so forth in terms of open sets, it is\nsomewhat a distortion of the formulation process to deem one more fundamental\nthan the other. The use of openness simply affords elegant constructions of the\nother concepts. There is an enlightening MathOverflow  \n<a href=\"https://mathoverflow.net/questions/19152/why-is-a-topology-made-up-of-open-sets\">topic</a>\ntouching on this idea which has had mathematicians like Terrance Tao and Kevin Buzzard \nweigh in.</p>",
+                "",
+                "",
+                "1.1.10",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "tJzNMseX=i",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Basis",
+                "<p>Instead of specifying all possible open sets of a topology, it is convenient\nto be able to specify the topology in terms of a smaller set. \nAnalogously, for metric spaces, the set of open balls could be used to describe\na metric space instead of directly specifying the arbitrary open sets. For\ntopological spaces, a <em>basis</em> carries out this role \n(plural: <em>bases</em>).</p>\n<div class=\"definition\">\n<h3>Basis, definition</h3>\n<p>Let \\( X \\) be a topological space. A basis for \\( X \\) is a collection\n\\( \\mathscr{B} \\) of open subsets of \\( X \\) such that every open subset of \\( X \\) \nis {{c1::a union of sets in \\( \\mathscr{B} \\)}}.\n</p></div>\n<p>Two consequence of this definition are:\n</p><ul>\n<li>Every element of \\( X \\) {{c1::has at least one neighbourhood that is a basis element::has a something that is something}}.</li>\n<li>the intersection of {{c1::any two basis elements must be a basis element::two somethings is a something}}.</li>\n</ul>\n<p>A bit more formally, these two consequences translate to:</p>\n<div class=\"lemma\">\n<h3>Lemma.</h3>\n<p>Let \\( X \\) be a topological space, and let \\( \\mathscr{B} \\) be a basis for\n\\( X \\). Then:\n</p><ol>\n<li>For each \\( x \\in X \\), there is {{c1::at least one basis element \\( B \\) \ncontaining \\( x \\)}}.</li>\n<li>If \\( x \\in B_1 \\cap B_2 \\) where \\( B_1 \\) and \\( B_2 \\) are basis \nelements, then {{c1::\\( x \\in B_3 \\) for some basis element \n\\( B_3 \\subseteq  B_1 \\cap B_2 \\)}}.</li>\n</ol>\n<p></p></div><p></p>",
+                "<h4>The choice of definition and lemma</h4>\n<p>The wording of this lemma is presented in line with Munkres's presentation.\nMunkres, however, presents this lemma as the <em>definition</em> of a basis; \nhe then proceeds to derive the content of the definition that I've presented above. Leinster proceeds in the opposite order, as presented here. I think that the motivation of\na basis is clearer from Leinster's  definition, whereas the lemma presented by\nLeinster (definition for Munkres) is more useful to work with. I followed \nMunkres's wording for the lemma as I feel it encourages thinking in terms\nof individual elements of \\( X \\) which so far has been useful in proofs.</p>",
+                "",
+                "",
+                "1.1.15",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "pu=:qQ?t;>",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Subbasis",
+                "<div class=\"definition\">\n<p>Let \\( X \\) be a set. A subbasis for a topology on \\( X \\) is a collection \nof subsets of \\( X \\) whose union equals \\( X \\). \n</p>\n<p>Let \\( \\mathcal{S} \\) be a subbasis for a topology on \\( X \\). The \nset of all {{c1::unions of finite intersections of elements of \\( \\mathcal{S} \\)::something of something of something}} is\na topolgy on \\( X \\). This topology is said to be generated by the \nsubbasis \\( \\mathcal{S} \\).\n</p></div>\n<p>It can be proved that the generated set forms a valid topology.</p>\n",
+                "<h3>Basis vs subbasis</h3>\n<p>A subbasis is an even more lightweight description of a topology compared to\na basis. A subbasis can generate a basis for the same topology: the collection\nof all finite intersections of subbasis elements forms a basis.</p>",
+                "",
+                "",
+                "1.1.16",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "n0}z2-goJ+",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hausdorff spaces",
+                "<p>Most interesting topological spaces are Hausdorff. Hausdorffness is \nidentified as being the second separation condition. The first condition, T1\nis a sub-requirement of T2 (Housdorff), so it is useful to keep it in mind\nwhen thinking about the Hausdorff condition.</p>\n<div class=\"definition\">\n<h3>T1</h3>\n<p>A topological space \\( X \\) is said to be \\( T_1 \\) iff {{c1::every one-element\nsubset of \\( X \\) is closed}}.</p>\n</div>\n<p>Now for Hausdorff.</p>\n<div class=\"definition\">\n<h3>Hausdorff</h3>\n<p>A topological space \\( X \\) is Hausdorff (or \\( T_2 \\)) iff {{c1::for every \ndistinct \\( x, y \\in X \\), there exists disjoint neighbourhoods of \\( x \\) \nand \\( y \\)}}.</p>\n</div>\n<p>Lemma. Every Hausdorff space is \\( T_1 \\).</p>\n",
+                "<p>Slightly more precise wording of the Hausdorff condition:</p>\n<p>A topological space \\( X \\) is Hausdorff (or \\( T_2 \\)) iff for every \n\\( x, y \\in X \\) such that \\( x \\ne y \\), there exists disjoint open sets \n\\( U, W \\) of \\( X \\) such that \\( x \\in U \\) and \\( y \\in W \\).\n</p>\n<img src=\"paste-b97bb1ab2c1ba963e7fe7275bbcf427bdb5deb44.jpg\">",
+                "<p>Every metrizable space is Hausdorff.</p>\n<p>While most interesting spaces are Hausdorff, there are some non-Hausdorff \nspaces that are important. The Zariski topology is an example.</p>",
+                "",
+                "1.1.11",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "Qx*RrFL4xn",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sequence convergence",
+                "<div class=\"definition\">\n<h3>Sequence convergence</h3>\n<p>Let \\( X \\) be a topological space, let \\( (x_n) \\) be a sequence in \\( X \\) and let \\( x_0 \\in X \\). \nThen \\( (x_n) \\) converges to \\( x_0 \\) iff {{c1::for every neighbourhood \\( U \\) of \n\\( x_0 \\) there is an \\( N \\ge 1 \\) such that for every \\( n \\ge N \\), \\( x_n \\in U \\)::for every something there is something that something}}.</p></div>",
+                "<p>In other words, every neighbourhood of the point to which a sequence converges must contain the whole tail end of the sequences starting from some arbitrary point in the sequence.</p>\n<p>It is a good exercise to check that this definition carries the expected meaning for metric spaces.</p>\n",
+                "<h4>Sequences in Hausdorff spaces</h4>\n<p>A common demonstration of the importance of Hausdorff spaces:</p>\n<div class=\"lemma\">\n<p>Let \\( X \\) be a Hausdorff topological space. Then each sequence in \\( X \\)\nconverges to at most one point.\n</p>\n</div>\n<p>Another good proof exercise.</p>\n<h4>Multiple convergence</h4>\n<p>An example where we get multiple convergence:</p>\n<img src=\"multiple_convergence.jpg\">",
+                "",
+                "1.1.12",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "uo|xeui}=R",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Continuous maps",
+                "<div class=\"definition\">\n<h3>Continuous maps</h3>\n<p>Let \\( X \\) and \\( Y \\) be topological spaces. A function \\( f : X \\to Y \\)\nis <em class=\"def\">continuous</em> iff {{c1::for every open subset \\( U \\) of \\( Y \\), \nthe preimage \\( f^{-1}U \\) is open in \\( X \\)::for every something, that something has some property}}.\n</p>\n</div>\n<p>In short, continuity means that {{c1::the preimage of an open set is open::phrased in a few simple words...}}.</p>\n<h3>Some results</h3>\n<div class=\"lemma\">\n<h3>Continuous maps preserve convergence of sequences.</h3>\n<p>Let \\( f : X \\to Y \\) be a continuous map, and let \\( (x_n) \\) be a \nsequence in \\( X \\) converging to \\( x \\in X \\); then the sequence \n{{c1::\\( (f(x_n)) \\) in \\( Y \\)}} converges to {{c1::\\( f(x) \\in Y \\)}}.\n</p>\n</div>\n<p class=\"remark\">In metric spaces this lemma is an if and only if statement, whereas for \ntopological spaces we are restricted to only the forward implication above; it\nis possible to construct discontinuous maps of topological spaces that, \nnevertheless, preserve convergence of sequences.</p>\n<p>The composite of continuous maps {{c1::is continuous::is always continuous/need not be continuous?}}.</p>\n<p>The inverse of a continuous bijection {{c1::need not be continuous. Details below::is always continuous/need not be continuous?}}.<br></p>\n<p>Munkres presents three statements that are equivalent to stating that a \nfunction is continuous:</p>\n<div class=\"lemma\">\n<h3>Continuity equivalences</h3>\n<p>Let \\( X \\) and \\( Y \\) be topological spaces and let \\( f : X \\to Y \\)\nbe a function. The the following are equivalent:</p>\n<ol>\n<li>\\( f \\) is continuous.</li>\n<li>For every subset \\( A \\) of \\( X \\), one has {{c1::\\( f(\\bar{A}) \\subseteq \\overline{f(A)} \\)::\\( f(\\bar{A}) \\subseteq \\text{what set?} \\)}}.</li>\n<li>For every closed set \\( B \\) of \\( Y \\), the set {{c1::\\( f^{-1}(B) \\)}} is {{c1::closed in \\( X \\)}}.</li>\n<li>For each \\( x \\in X \\) and each neighbourhood \\( V \\) of \\( f(x) \\), there \nis a {{c1:: a neighbourhood \\( U \\) of \\( x \\)}} such that {{c1::\\( f(U) \\subseteq V \\)}}.</li>\n</ol></div>\n",
+                "<h3>Continuous maps preserve convergence, proof.</h3>\n<p>The sequence \\( (x_n) \\) in \\( X \\) converges to \\( \\lim_{n \\to \\infty} x_n \\). Any neighbourhood\n \\( B \\subseteq Y \\) of \\( f(\\lim_{n \\to \\infty} x_n) \\) has an open pre-image \\( A \\subseteq X \\) that is a \nneighbourhood of \\( \\lim_{n \\to \\infty} x_n \\). As \\( A \\) is a neighbourhood of the limit of the sequence, \nit must fully contain some tail of the sequence (\\( x_n \\) for all \\( n \\ge N \\) for some \\( N &gt; 0 \\)). \nThe image of this tail must fit within \\( B \\). And so, \\( B \\) contains a tail of \\( (f(x_n))_n \\). This is\nsufficient to conclude that \\( \\lim_{n \\to \\infty} f(x_n) \\) converges to \\( f(\\lim_{n \\to \\infty} x_n) \\).\n</p>\n<h3>The 4 equivalent statements for continuity</h3>\n<p>Some remarks about these equivalences:</p>\n<ul>\n<li>#3 implies that continuity could have been defined in terms of closed sets, \ninplace of opensets; more support that closedness is of equal fundamentalness to \nopenness.</li>\n<li>#4 is the form in which continuity is defined for metric spaces! Just replace\nnotions of neighbourhoods with open ε-balls.</li>\n<li>#2 is presented later on in Leinster's notes. In words it is saying that\na sufficient and necessary requirement for a function \\( f \\) to be continuous \nis that \\( f \\) must map points <em>just</em> outside of any set \\( A \\) to\npoints only just outside \\( fA \\).</li>\n<li>#2 can be unfolded (and a little bit of causality injected) to say: \n<br>\nno open set in \\( X \\) can help intersecting\n    \\( A \\) when containing \\( x \\) ⟺ no open set in \\( Y \\) can help \nintersecting \\( fA \\) when containing \\( f(x) \\).\n</li>\n</ul>\n<h4>Warning regarding inverse</h4>\n<p>The inverse of a continuous bijection <em class=\"em2\">need not be continuous</em>.</p>\n<p>An easy way of constructing an example is to consider continuous maps to a \nset with the discrete topology. For example, the identity map \n\\( i : (\\mathbb{R}, \\text{discrete topology}) \\to (\\mathbb{R}, \\text{standard topology}) \\)\nis continuous, but the inverse, \\(  \\)\n\\( i^{-1} : (\\mathbb{R}, \\text{standard topology}) \\to (\\mathbb{R}, \\text{discrete topology}) \\)\nis not continuous.\n</p>\n<h4>Naming: function, map, mapping</h4>\n<p>'Function', 'map' and 'mapping' usually mean the same thing, but in practice,\npeople tend to talk about 'continuous maps' between topological spaces, rather\nthan 'continuous functions'. \n\n</p><p>It is worth checking that this notion of continuity is compatible with \nthat defined for metric spaces.</p>\n<p></p>",
+                "<h3>Mapping from a discrete topology</h3>\n<p>Any map from a set with a discrete topology&nbsp;<em class=\"em2\">is always continuous</em>, as any\nelement of such a topology is always both open and closed.</p>\n<h3>Mapping to an indiscrete topology</h3>\n<p>Any map to set with an indiscrete topology <em class=\"em2\">is always continuous</em>, as the only\ntwo elements in the codomain (full set and empty set) must map to the full set\nand empty set of the domain. All four of which are both open and closed.</p>\n<h3>Identity map</h3>\n<p>Let \\( \\mathcal{T} \\) and \\( \\mathcal{T}' \\) be two different topologies on\nthe same set \\( X \\). The 'identity' map \\( i : (X, \\mathcal{T}) \\to \n(x, \\mathcal{T}') \\), defined by \\( i(x) = x \\), is continuous iff \nthe codomain \\( \\mathcal{T}' \\) is finer than the domain \\( \\mathcal{T} \\) (\nevery member of \\( \\mathcal{T}' \\) is also a member of \\( \\mathcal{T} \\) ).\n</p>\n",
+                "",
+                "1.1.13",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "LngqM_lkXt",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness. Motivation",
+                "<p>What would we have to assume about a topological space \\( X \\) in order to\nprove that every continuous map \\( f : X \\to \\mathbb{R} \\) is bounded?</p>\n<h3>Reasoning summary</h3>\n<p>Condensed version.</p>\n<ul>\n<li>What is the definition of being bounded?</li>\n<li>What are some cases where we know functions are bounded?</li>\n<li>The most basic case: the domain is {{c1::finite}}.</li>\n<li>Can we generalize this?</li>\n<li>A little more general:<br>\n    For a given \\( f \\), the domain can be covered by a {{c1::finite\n    collection of subsets}}, each of which has an image that is bounded.</li>\n<li>This is restricted to a given \\( f \\). Can we generalize?</li>\n<li>Every continuous \\( f \\) induces a neighbourhood around each \n\\( x \\in X \\), and \\( f \\) will be bounded for each of these neigbourhoods.</li>\n<li>So, by the definition of continuity, we have a cover where each subset is\nbounded.</li>\n<li>Sadly, this set of neighbourhoods could be {{c1::infinite}}.</li>\n<li>Thus we arrive at our requirement: every open cover must have {{c1::a finite\nsubcover}}.</li>\n<li>Which means, every continuous \\( f \\) will induce an arbitrary open cover on \n\\( X \\) (by {{c1::continuity::definition of what?}}), and we impose that this cover has a finite subcover.</li>\n</ul><img src=\"IMG_2684.jpg\">",
+                "\n<h3>Reasoning steps</h3>\n<p>The though chain in full.</p>\n<h4>1. Define bounded</h4>\n<p>For the single dimension case, the following are equivalent statements \nregarding a function \\( f : X \\to \\mathbb{R} \\):</p>\n<ol>\n<li>\\( f \\) is bounded.</li>\n<li>\\( fX \\) is bounded.</li>\n<li>There exists an \\( M \\ge 0 \\) such that for all \\( y \\in fX \\), \\( |y| \\le M \\).</li>\n<li>There exists an \\( M \\ge 0 \\) such that for all \\( x \\in X \\), \\( |f(x)| \\le\nM \\).</li>\n<li>As \\( \\mathbb{R} \\) is a metric space, we can phrase #3 with ε-balls: there is an \\( B(0, M) \\) for some \\( M \\ge 0 \\) such that \\( fX \\subseteq B(0, M) \\).</li>\n</ol>\n<p>#4 Generalizes the question to functions whose co-domain is metric \n(\\( \\mathbb{R}^n \\)).</p>\n<h4>2. Functions with finite domain are bounded</h4>\n<p>If \\( X \\) is finite, then any function \\( f : X \\to \\mathbb{R} \\)\n(continuous or not) is bounded, since we can take \\( M = max_{x \\in X}|f(x)| \\).\n<em>max</em> over a finite set of real numbers is a real number.</p>\n<h4>3. \\( X \\) covered by finite bounded subsets</h4>\n<p>If the domain \\( X \\) can be expressed as a finite union of subsets \n\\( (A_j)_{j \\in J} \\) such that a function \\( f : X \\to \\mathbb{R} \\) is \nbounded on each individual \\( A_j \\), then \\( f \\) itself must be bounded.\nWhy? Well, we can choose for each \\( j \\in J \\) some \\( M_j \\ge 0 \\) such that\nfor all \\( x \\in A_j, |f(x)| \\le M_j \\). Then the maximum of these, \\( M = max_{j \\in J} M_j \\) bounds the whole of \\( fX \\).</p>\n<p>Now the question becomes, given a set \\( X \\), how can we express it as \na union of bounded sets.</p>\n<h4>4. Locally bounded near every \\( x \\in X \\)</h4>\n<p>A continuous function need not be bounded, but it is 'locally bounded' in \nthe following sense.</p>\n<dl>\n<dt>Metric space, \\( X \\)</dt>\n<dd>Let \\( x \\in X \\). There is some \\( \\delta_x &gt; 0 \\) such that \n\\( B(x, \\delta_x ) \\) is a subset of&nbsp; \\( f^{-1}(f(x) - 1, f(x) + 1) \\), the latter being an open neighbourhood of \\( x \\).</dd>\n<dt>The same idea for a topological space, \\( X \\), and function \\( f : X \\to \\mathbb{R} \\)</dt>\n<dd>Let \\( x \\in X \\). The set \\( U_x = f^{-1}(f(x) -1, f(x) + 1) \\) is an\nopen neighbourhood of \\( x \\) and satisfies \\( fU_x \\subseteq (f(x) - 1, f(x)\n+ 1) \\).</dd>\n</dl>\n<p>In both of these cases, \\( f \\) is bounded by \\( f(x) + 1 \\) when restricted\nto \\( B(x, \\delta_x) \\) and \\( U_x \\) respectively. So each \\( x \\in X \\) has\na neighbourhood on which \\( f \\) is bounded.</p>\n<p>Trying to utilize this idea to cover \\( X \\) with bounded subsets runs up \nagainst issues of infinite sets.</p>\n<h4>5. The maximum of an infinite set</h4>\n<p>We know that for each \\( x \\in X \\), there is a neighbourhood \\( U_x \\) on \nwhich the continuous function \\( f \\) is bounded, with \\( |f(u)| \\le M_x \\) for \nall \\( u \\in U_x \\). The subsets \\( (U_x)_{x \\in X} \\) cover \\( X \\), so why not \nuse \\( M = max_{x \\in X}M_x \\) as the bounds for \\( f \\)? The trouble is, this\nmaximum might not be a well-defined real number, since \\( X \\) is infinite.</p>\n<h4>6. Impose a finite cover requirement</h4>\n<p>Presuppose that it was possible to cover \\( X \\) with only \n<em>finitely many</em> of the sets \\( U_x \\). If \\( Z \\subseteq X \\) was a \nfinite set such that the neighbourhoods \\( (U_x)_{x \\in Z} \\) covered \\( X \\), \nthen we could legitimately set \\( M = max_{z \\in Z} M_z \\).</p>\n<p>So, in order to be able to assert that all continuous maps \n\\( X \\to \\mathbb{R} \\) be continuous, we have needed to assume that there is\na finite set of open subsets that cover \\( X \\). This is exactly what the\ndefinition of <em class=\"em2\">compact</em> entails. The definition is \ncopied below.</p>\n<div class=\"minor_definition\">\n<h3>Cover</h3>\n<p>\nLet \\( X \\) be a topological space. A <em class=\"def\">cover</em> of \\( X \\)\nis a family \\( (U_i)_{i \\in I} \\) of subsets of \\( X \\) such that\n\\( \\bigcup_{i \\in I} U_i = X \\). It is <em class=\"def\">finite</em> iff\nthe indexing set \\( I \\) is finite, and <em class=\"def\">open</em> iff \\( U_i \\)\nis open for each \\( i \\in I \\).\n</p>\n<p>\nGiven a cover \\( (U_i)_{i \\in I} \\) and \\( J \\subseteq I \\), we say that\n\\( (U_j)_{j \\in J} \\) is a <em class=\"def\">subcover</em> of \\( (U_i)_{i \\in I} \\) \nif it is itself a cover of \\( X \\).\n</p>\n</div>\n<p>Finally, we arrive at our definition for compact.</p>\n<div class=\"definition\">\n<h3>Compact</h3>\n<p>A topological space \\( X \\) is <em class=\"def\">compact</em> iff every open\ncover of \\( X \\) has a finite subcover.\n</p>\n</div>\n<h4>We have achieved boundedness</h4>\n<p>If we take any continuous function \\( X \\to Y \\subseteq \\mathbb{R^n} \\), where \\( X \\) is compact,\n\\( fX \\) must have a finite open cover, as \\( X \\) has a finite open cover. Consequently, \\( fX \\) must be bounded: \\( fX \\subseteq [-M, M]^n \\), where&nbsp; \\( M \\) is a maximum of the bounds of the finite covers of \\( fX \\).&nbsp;</p>",
+                "",
+                "",
+                "2.1.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "j~y0:P2zte",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness",
+                "<div class=\"minor_definition\">\n<h3>Cover</h3>\n<p>\nLet \\( X \\) be a topological space. A <em class=\"def\">cover</em> of \\( X \\)\nis a family \\( (U_i)_{i \\in I} \\) of subsets of \\( X \\) such that\n{{c1::\\( \\bigcup_{i \\in I} U_i = X \\)}}. It is <em class=\"def\">finite</em> iff\nthe indexing set \\( I \\) is finite, and <em class=\"def\">open</em> iff \\( U_i \\)\nis open for each \\( i \\in I \\).</p>\n<p>\nGiven a cover \\( (U_i)_{i \\in I} \\) and \\( J \\subseteq I \\), we say that\n{{c1::\\( (U_j)_{j \\in J} \\)}} is a <em class=\"def\">subcover</em> of \\( (U_i)_{i \\in I} \\) \nif it is itself a cover of \\( X \\).\n</p>\n</div>\n<div class=\"definition\">\n<h3>Compact</h3>\n<p>A topological space \\( X \\) is <em class=\"def\">compact</em> iff {{c1::every open\ncover of \\( X \\) has a finite subcover}}.\n</p>\n</div>",
+                "",
+                "",
+                "",
+                "2.2.2",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "Rf;p7m+M,t",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness. Examples",
+                "<ul>\n<li>The collection of sets \\( \\{(n - 1, n + 1) : n \\in \\mathbb{Z} \\} \\) form\nan open cover of \\( \\mathbb{R} \\). This cover has \n{{c1::no finite subcover. So \\( \\mathbb{R} \\) is not compact.::no finite subcover/a finite subcover?}}.&nbsp;</li>\n<li>Divide the interval \\( [0, 1] \\) like so: \\( U_0 = [0, \\frac{1}{2}] \\),\n\\( U_n = (2^{-n}, 1] \\) for \\( n \\ge 1 \\), then form the cover \\( (U_n)_{n \\ge 0} \\). \nThis is an open cover, and has many finite subcovers \n(e.g. ([0, 1/2), (1/2, 1], (1/4, 1]). So we can say that \\( [0, 1] \\) is \n{{c1::.We can't say anything. We would need to prove that all open covers have a finite subcover\nto prove compactness}}.</li>\n<li>The compact subspaces of \\( \\mathbb{R}^n \\) are the {{c1::closed bounded subsets}}.</li>\n<li>Any indiscrete space is {{c1::compact::compact/not compact, possibly with conditions}}.</li>\n<li>Any finite space is {{c1::compact::compact/not compact, possibly with conditions}}.</li>\n<li>A discrete space is {{c1::compact iff it is finite::compact/not compact, possibly with conditions}}.</li>\n<li>In a normed vector space \\( V \\), the closed unit ball is {{c1::compact iff \\( V \\)\nis finite-dimensional::compact/not compact, possibly with conditions}}.</li>\n</ul>\n",
+                "<p>The last example alludes to the idea that compactness is a kind of \nfiniteness condition:</p>\n<table cellspacing=\"20\">\n<tbody><tr><td>sets</td><td>finite sets</td></tr>\n<tr><td>vector spaces</td><td>finite dimensional vector spaces</td></tr>\n<tr><td>topological spaces</td><td>compact topological spaces</td></tr>\n</tbody></table>",
+                "",
+                "",
+                "2.3.3",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "t|>s|El6hO",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness. Subspaces",
+                "<p>How do compactness and subspaces interact?</p>\n<ol>\n<li>A subspace of a compact space {{c1::is not necessarily compact::is compact/is not necessarily compact?}}.</li>\n<li>Every closed subspace of a compact space {{c1::is compact::is compact/is not necessarily compact?}}.</li>\n<li>Every compact subspace of a compact space {{c1::is not necessarily closed::is closed/is not necessarily closed?}}.</li>\n<li>Every compact subspace of a Hausdorff space {{c1::is closed::is closed/is not necessarily closed?}}.</li>\n<li>A subspace of a compact Hausdorff space is {{c1::compact iff it is closed:: something iff something}}.</li>\n</ol>\n",
+                "<h4>1. A subspace of a compact space</h4>\n<p>A subspace of a compact space need not be compact. For example, \\( [0, 1] \\)\nis compact, yet \\( (0, 1) \\subseteq [0, 1] \\) is not compact. To see this, \nconsider the open cover of \\( (0, 1) \\) given by \n\\( ((\\varepsilon, 1)_{\\varepsilon &gt; 0}) \\). This cover has no finite subcover.\nThis example highlights that <em>all</em> open covers must have a subcover, \nand thus, to prove a space to be compact, it is not sufficient to find a single\nopen cover having a finite subcover—we must show that it is impossible for any\nopen cover to not have a finite subcover.\n</p>\n<h4>2. Every closed subspace of a compact space is compact.</h4>\n<p>Proof outline. Any cover of a closed subset \\( V \\) can be appended by the \nsingle open set \\( X \\setminus V \\). This new set of subsets must cover \\( X \\),\nand must be finite as \\( X \\) is compact.</p>\n<p>Proof. Let \\( X \\) be a compact space and \\( V \\) a closed subset. Let \n\\( (U_i)_{i \\in I} \\) be a cover of \\( V \\) by open subsets of \\( X \\). Then\n\\( (U_i)_{i \\in I} \\) together with \\( X \\setminus V \\) is an open cover of \n\\( X \\). Since \\( X \\) is compact, it has some finite subcover; thus, there is\nsome finite \\( J \\subseteq I \\) such that\n</p>\n<div>\n\\[ \\left( \\bigcup_{j \\in J} U_j \\right) \\cup (X \\setminus V) = X \\]\n</div>\n<p>Then \\( \\bigcup_{j \\in J} U_j \\subset V \\), as required.</p>\n<p class=\"remark\">We create an open cover of \\( V \\) by subsets of \\( X \\),\nnot subsets of \\( V \\). This is for convenience, and is justified by the \nmodified formulation of cover for subsets. See Leinster's notes and Lemma B1.7.\n</p>\n<p>The converse is not necessarily true. Which is the topic of the next section.\n</p>\n<p>An idea that appeals to intuition regarding closed vs. open subsets and being compact: closed sets place more stringent requirements on any collection in order for the collection to be a cover. Consequently, some covers that might not have a finite subcover don't count as covers. This conceptualization might help motivate why closed subsets of a compact space are compact, and open subsets are not necessarily.</p>\n<h4>3. Not all compact subspaces of a compact space is closed.</h4>\n<p>\nTrivial counter-examples make this statement false. For example, \nconsider an indiscrete space on a set \\( X \\) that has two or more elements. All \nindiscrete spaces are compact. Now choose a proper subset \\( Y \\subset X \\) and\nconsider the subspace topology on \\( Y \\): the subspace topology on \\( Y \\) is\nindiscrete also (just \\( \\{Y, \\emptyset \\} \\)), so \\( Y \\) is compact. But \n\\( Y \\) is not closed in \\( X \\), as it is neither \\( \\emptyset \\) nor \\( X \\).\n</p>\n<p>What other examples are there of non-closed compact subspaces of a compact \nspace are there? Another example is the finite complement topology on \n\\( \\mathbb{R} \\). Every subspace of the finite complement topology on \n\\( \\mathbb{R} \\) is compact (try justify!). But the only proper subsets of \n\\( \\mathbb{R} \\) that are closed in this topology are the finite sets.</p>\n<p>With a pretty minimal extra restriction on \\( X \\) (being \nHausdorff), we can make the desired assertion.</p>\n<h4>Every compact subspace of a Hausdorff space is closed.</h4>\n<p>Note first that we have relaxed the requirement that the larger/outer space\nbe compact.</p>\n<p>Proof. Let \\( Y \\) be a compact  subspace of the Hausdorff space \\( X \\). We\nshall prove that \\( X - Y \\) is  open, so that \\( Y \\) must be closed. Let \\(\nx_0 \\in X - Y \\).</p>\n<p>Claim: there is a neighbourhood of \\( x_0 \\) that is disjoin from the whole \nof \\( Y \\).</p>\n<p>Claim proof. Since \\( X \\) is Hausdorff, for each \\( y \\in Y \\), with respect\nto \\( x_0 \\) choose <em>disjoint</em> neighbourhoods \\( U_y \\) and \\( U_{x_0} \\):\nin other words \\( U_y \\) is a neighbourhood of \\( y \\) and&nbsp;\\( U_{x_0} \\) is a\nneighbourhood of \\( x_0 \\). The collection \\( \\{U_y : y \\in Y \\} \\) is a \ncovering of \\( Y \\) by sets open in \\( X \\). <em class=\"em2\">[This next bit is \nthe one and only point where we utilize the compactness of \\( Y \\).]</em>  There\nmust be a finite sub-cover, \\( U_Y = U_{y_1}, U_{y_2}, ..., U_{y_n} \\). This  finite\ncover \\( U_Y \\) contains \\( Y \\) and is disjoint from \\( x_0 \\) and  its\nneighbourhood \\( Ux_0 = U_1, U_1, U_n \\), formed by taking the \n<em>finite</em> intersection of neihbourhoods disjoin from each of the \nneigbourhoods that were unioned to form \\( U_Y \\). This proofs our claim.\n</p>\n<p>Now we have a neighbourhood of \\( x_0 \\) disjoin from \\( Y \\). This is true\nfor any \\( x \\notin Y \\), so we may take the union of such open sets which will\nin turn be open. Let \\( W \\) be this open set. We have \\( X - W = Y \\), so \n\\( Y \\) must be closed.</p>\n<div class=\"minor_lemma\">\n<h4>Lemma: 'neighbourhood' of a compact subspace</h4>\n<p>If \\( Y \\) is a compact subspace of a Hausdorff space \\( X \\), and \\( x_0 \\)\nis not in \\( Y \\), then there exists disjoin open sets&nbsp;\\( U_{x_0} \\) and \\( U_Y \\)\nof \\( X \\) such that \\( U_{x_0} \\) contains \\( x_0 \\) and \\( U_Y \\) contains\n\\( Y \\).\n</p>\n</div>\n<p>This lemma is the inner claim from the proof above. Munkres makes the point\nthis this lemma is a useful result in its own right. He even provides a \nnice diagram (see figure 26.1 in the text).</p>\n<h4>A subspace of a compact Hausdorff space is compact iff it is closed.</h4>\n<p>This is the combination of 2 &amp; 4.</p>",
+                "",
+                "Munkres p164",
+                "2.5.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "k:2!kYK;`u",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connectedness, compactness and some fundamental theorems of calculus",
+                "<p>The following three theorems in calculus, theorems about functions from\nand to the reals, have generalizations in topology.</p>\n<dl>\n<dt>Intermediate value theorem</dt>\n<dd>If \\( f : [a, b] \\to \\mathbb{R} \\) is continuous, and if \\( r \\) is a \n        real number between \\( f(a) \\) and \\( f(b) \\), then {{c1::there exists an\n        element \\( c \\in [a, b] \\) such that \\( f(c) = r \\)}}.</dd>\n<dt>Maximum value theorem</dt>\n<dd>If \\( f : [a, b] \\to \\mathbb{R} \\) is continuous, then {{c1::there exists an\n        element \\( c \\in [a, b] \\) such that \\( f(x) \\le f(c) \\) for every \n        \\( x \\in [a, b] \\)}}.</dd>\n<dt>Uniform continuity theorem</dt>\n<dd>If \\( f : [a, b] \\to \\mathbb{R} \\) is continuous, then for every \n        \\( \\varepsilon &gt; 0 \\) {{c1::there exists a \\( \\delta &gt; 0 \\) such that \n        \\( |f(x_1) - f(x_2)| &lt; \\varepsilon \\) for every \n        \\( x_1, x_2 \\in [a, b] \\) for which \\( |x_1 - x_2| &lt; \\delta \\)}}.</dd>\n</dl>\n<h4>Applications in Calculus</h4>\n<ul>\n<li>The <em>intermediate value theorem</em> is used for constructing inverse\nfunctions, such as \\( \\sqrt[3]{x} \\) and \\( \\arcsin(x) \\).</li>\n<li>The <em>maximum value theorem</em> is used to prove the <em>mean value\ntheorem</em> for derivatives, which in turn is used to prove the two\n<em>fundamental theorems of calculus</em>.</li>\n<li>The <em>uniform continuity theorem</em> is used for proving that every \ncontinuous function is integrable.</li>\n</ul>\n<h4>What is the concept in question: functions vs sets?</h4>\n<p>The three theorems can be considered to be describing facts about \ncontinuous functions; but shifting one's focus, one can view them as describing \nthe nature of {{c1::the closed interval \\( [a, b] \\subset \\mathbb{R} \\)}}.\n</p>\n<h4>As topological properties</h4>\n<p>The topological property of the space \\( [a, b] \\) on which the intermediate\nvalue theorem depends is the topological property called \n<em class=\"em2\">{{c1::connectedness}}</em>.</p>\n<p>The property which the maximum value theorem and the uniform continuity \ntheorem depend on is called <em class=\"em2\">{{c1::compactness}}</em>.\n</p><p>Both of these properties are fundamental to areas beyond calculus; they are\nfundamental to almost any area which can be represented in topology.</p><p></p>",
+                "",
+                "",
+                "Munkres<div>p145</div>",
+                "4.1.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "jZI8q#E^N$",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connectedness. Definition",
+                "<div class=\"definition\">\n<h3>Connectedness</h3>\n<p>Let \\( X \\) be a topological space. A <em class=\"def\">{{c1::separation}}</em> of\n\\( X \\) is a pair \\( U, V \\) of disjoint nonempty open subsets of \\( X \\) whose\nunion is \\( X \\). The space \\( X \\) is said to be <em class=\"def\">connected</em>\niff {{c1::there does not exist a separation of \\( X \\)}}.</p>\n</div>\n<p class=\"remark\">This definition is from Munkres. Leinster's definition feels\na little less intuitively concrete.</p>\n<div class=\"minor_definition\">\n<h4>Connectedness, formulation 2 (or now a lemma)</h4>\n<p>A space \\( X \\) is <em class=\"def\">connected</em> iff the only subsets of \n\\( X \\) that {{c1::are both open and closed in \\( X \\)}} are {{c1::the empty set and \\( X \\)\nitself}}.</p>\n</div>\n<p class=\"remark\">Again, from Munkres.</p>",
+                "\n<h3>Connectedness, motivation</h3>\n<p>Intuitively, a space is said to be 'connected' if it is all in one \npiece—it does not <em>fall naturally</em> into two or more pieces. 'Naturally'\nhere carries a major component of the sense of 'connected', as any topological\nspace can be <em>torn</em> into multiple pieces in some way.\n</p>\n<h4>Tearing</h4>\n<p>Intuitively, why can't the real line \\( \\mathbb{R} \\) be separated naturally \ninto two pieces? Consider the decomposition \\( (-\\infty, 0) \\cup [0, \\infty) \\):\nin what way is this separation not natural? While it might not appeal to \neveryone's intuition, this separation is considered forced because a limit point\nof \\( (-\\infty, 0) \\), zero, is not an element of \\( (-\\infty, 0) \\) but an \nelement of the other piece \\( [0, \\infty) \\). In other words, the closure of \none piece spills into or is contained or is intertwined in the other piece. \nThus, naturally separating a space can be viewed from the lens of open and \nclosed sets.</p>\n<h4>Natural separation, requirements</h4>\n<p>For a topological space \\( X \\), a separation of \\( X \\) into disjoint subsets\nis considered a natural separation into independent pieces \\( U \\) and \\( V \\)\nif no point in \\( U \\) is a limit point of \\( V \\), and vice versa. \nEquivalently, this means that \\( Cl(U) \\) is disjoin from \\( V \\), and vice \nversa, or equivalently, that both \\( U \\) and \\( V \\) are closed, or \nequivalently yet again, that both \\( U \\) and \\( V \\) are open.</p>\n<p>Thus, we arrive at our definition of connectedness, by defining a space \n\\( X \\) connected if the only natural separation of \\( X \\) as described above\nis the trivial one, \\( \\emptyset \\) and \\( X \\) itself.</p>",
+                "",
+                "Munkres, p146<div>Leinster, p68</div>",
+                "3.1.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "Fosj[5|%uX",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connectedness Examples",
+                "<ul>\n<li>\\( X = \\mathbb{R} \\setminus \\{0\\} \\) is {{c1::disconnected, since \n        \\( (-\\infty, 0) \\) and \\( (0, \\infty) \\) are disjoint open subsets of \n        \\( X \\) whose union is \\( X \\)::something about connectedness}}.</li>\n<li>The space of rationals numbers \\( \\mathbb{Q} \\), topologized as a \n        subspace of \\( \\mathbb{R} \\), is {{c1::disconnected. Consider the pair of \n        open sets \\( (-\\infty, \\sqrt(2)) \\cap \\mathbb{Q} \\) and \n        \\( (\\sqrt(2), \\infty) \\cap \\mathbb{Q} \\)::something about connectedness}}.</li>\n<li>A discrete space with 2 or more points is {{c1::disconnected. If \\( X \\) is \n        such a space, we can choose an \\( x_1 \\in X \\) then consider the two\n        open sets \\( \\{x_1\\} \\) and \\( X \\setminus \\{x_1\\} \\)::something about connectedness}}.</li>\n<li>A non-empty indiscrete space is {{c1::connected::something about connectedness}}.</li>\n<li>An interval topologized as a subspace of \\( \\mathbb{R} \\) is \n        {{c1::connected::something about connectedness}}.</li>\n<li>The space \\( \\mathbb{R}^d \\) is {{c1::not necessarily connected nor \n        disconnected—it is connected in the product topology, but not connected\n        in the box topology::something about connectedness}}.</li>\n<li>The letter 'O' is {{c1::connected. '0' is a quotient of \\( [0,1] \\), the quotient map is continuous and the image of a connected space through a continuous function is connected::something about connectedness}}.</li>\n</ul>",
+                "",
+                "",
+                "Munkres, p149<div>Leinster, p69</div>",
+                "3.1.2",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "u9Z$-WARMH",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connectedness. Equivalent formulations",
+                "<div class=\"lemma\">\n<p>For a nonempty topological space \\( X \\), the following are \nequivalent:</p>\n<ol>\n<li>\\( X \\) is connected;</li>\n<li>{{c1::the only subsets that are both open and closed are \\( \\emptyset \\) and \n\\( X \\)::something about subsets}};</li>\n<li>{{c1::every continuous map from \\( X \\) to a discrete space is constant::something about maps}};</li>\n<li>{{c1::every continuous map from \\( X \\) to the two-point discrete space is \nconstant::something similar about maps}}.</li></ol></div>",
+                "<p>The 3rd and 4th statement are similar, yet both useful in their own right: the 3rd statement is general and allows progress to be made in a proof when one knows that \\( X \\) is connected. The 4th is powerful in the reverse direction: simply proving that all continuous maps to the two-point discrete space is constant is enough to show that \\( X \\) is connected.</p>",
+                "",
+                "Leinster, p 69",
+                "3.1.3",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "o6P&,>7qFQ",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connectedness. 4 lemmas",
+                "<div class=\"lemma\">\n<h3>1. The edge of a connected space</h3>\n<p>Let \\( X \\) be a topological space. Let \\( A \\) and \\( B \\) be subspaces of\n\\( X \\) with {{c1::\\( A \\subseteq B \\subseteq Cl(A) \\)::some requirement}}.</p>\n<p>If \\( A \\) is connected, then so is \\( B \\).</p>\n</div>\n<div class=\"lemma\">\n<h3>2. A {{c1::continuous image::something}} of a connected space is connected</h3>\n<p>Let \\( f : X \\to Y \\) be a continuous map of topological spaces. If {{c1::\\( X \\)\nis connected::something}}  then {{c1::so is \\( fX \\)::something}}.</p>\n</div>\n<p>In particular, any quotient of a connected space is connected.\n</p><div class=\"lemma\">\n<h3>3. The {{c1::product::something}} of two connected spaces is connected.</h3>\n<p></p>\n</div>\n<div class=\"lemma\">\n<h3>4. A space that has {{c1::an overlapping covering of connected subspaces::a particular way of being composed}} is connected.</h3>\n<p>Let \\( X \\) be a nonempty topological space and \\( (A_i)_{i \\in I} \\) a family\nof subspaces covering \\( X \\). Suppose that \\( A_i \\) is {{c1::connected::something}} for each \n\\( i \\in I \\) and that \n\\( A_i \\cap A_j \\neq \\emptyset \\) for each \\( i, j \\in I \\), then \\( X \\) is\nconnected.</p>\n</div>\n<p>This lemma says that gluing together overlapping connected spaces produces\nconnected spaces.</p> <p></p>",
+                "<h3>1. (\\( A \\text{ is connected } \\implies A \\subseteq B \\subseteq Cl(A)) \\implies B \\text { is connected}\\)). Proof outline.</h3>\n<p>\\( B \\) is within the smallest closed subset containing \\( A \\). How could \n\\( B \\) be divide into 2 disjoint closed/open sets with \\( A \\) in one and the\nrest in another? It can't—if it could, then \\( A \\) itself would be closed, and\nthus, it's own closure. Note: \\( A \\) is connected, so cannot be subdivided to\ncreate the pair of open/closed subsets of \\( B \\).</p>\n<p>A good example for visualizing this lemma is to consider \\( A \\) to be the\nopen unit disk, and for this lemma to represent the inability to create a \nseparation of the closed disk with the open disk contained whollly in one of \nthe sets of the separation.</p>\n<div><img class=\"small\" src=\"IMG_2736.jpg\"></div>\n<h3>2. A continuous image of a connected space is connected. Proof outline.</h3>\n<p>The restricted function \\( f : X \\to fX \\) is surjective, \nand \\( f^{-1}fX = X \\). If we can split \\( fX \\) into two disjoint non-empty \nopen sets, then the pre-image of those sets will be open, disjoint and non-empty\n in \\( X \\), and they will union to \\( X \\). But that is a contradiction, as \n\\( X \\) is connected.\n</p>\n<h3>3. Product of two connected spaces is connected. Proof outline.</h3>\n<p>Let \\( X \\) and \\( Y \\) be connected spaces, and consider \\( X \\times Y \\).\n</p><p>Two approaches:</p>\n<ul>\n<li>Show that if \\( X \\times Y \\) is <em>not</em> connected, then either\n        \\( X \\) or \\( Y \\) cannot be connected. An ability to find a separation\n        of \\( X \\times Y \\) implies that we have found a separation of either\n        \\( X \\) or \\( Y \\) or both.</li>\n<li>The approach taken by Leinster is to consider a continuous function \n        \\( f : X \\times Y \\to D \\), where \\( D \\) is a discrete space, and \n        show that \\( f \\) is a constant function. In the \n        'Connectedness. Equivalent formulations' card, it was shown that this\n        is necessary and sufficient for \\( X \\times Y \\) to be connected. The\n        demonstration that \\( f \\) is constant is done by taking two arbitrary\n        points \\( t_1, t_2 \\in X \\times Y \\) and considering a 'vertical' slice \n        passing through \\( t_1 \\) and a 'horizontal' slice passing through \n        \\( t_2 \\). These slices are homeomorphic to one of \\( X \\) and \\( Y \\),\n        so \\( f \\) must be constant alone both. As the two slices intersect\n        somewhere, \\( f \\) must be the same constant on each. As the\n        points were arbitrary, this covers the whole space.\n    </li>\n</ul>\n<h3>4. Union of overlapping connected spaces is connected. Proof.</h3>\n<p>\nLet \\( f \\) be a continuous map from \\( X \\) to a discrete space \\( D \\). For\neach \\( i \\in I \\), we have the continuous map \\( f|_{A_i} : A_i \\to D \\). \n\\( A_i \\) is connected, so \\( f|_{A_i} \\) has a constant value \\( d_i \\). But\nfor each \\( i, j \\in I \\), we have \\( A_i \\cap A_j \\neq \\emptyset \\), so\n\\( d_i = d_j \\). Hence \\( d_i \\) is independent of \\( i \\in I \\), so \\( f \\)\nis constant, as required.\n</p>\n<p>Example: the letter O is a quotient of \\( [0, 1] \\), which is connected, so\n\\( O \\) is connected. Gluing O to another line segment gives P, which must\nnow also be connected. Gluing on another line segment to give A shows us that\nA too is connected.</p><p></p>",
+                "",
+                "Leinster, p70-71",
+                "3.1.4",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "iSrt31N_xT",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Homeomorphisms. Homeomorphic spaces.",
+                "\n<div class=\"definition\">\n<h3>Homeomorphisms and homeomorphic spaces.</h3>\n<p>\nLet \\( X \\) and \\( Y \\) be topological spaces.\n</p>\n<dl>\n<dt>Homeomorphism</dt>\n<dd>A <em class=\"def\">homeomorphism</em> from \\( X \\) to \\( Y \\) is a {{c1::continuous\nbijection whose inverse is also continuous}}.</dd>\n<dt>Homeomorphic spaces</dt>\n<dd>The spaces \\( X \\) and \\( Y \\) are <em class=\"def\">homeomorphic</em> iff {{c1::there exists a homeomorphism between them}}.</dd>\n</dl></div>\n<p>\\( X \\cong Y \\) is the notation for \\( X \\) to be homeomorphic to \\( Y \\). '<em class=\"def\">Topologically equivalent</em>' is an alternative term for 'homeomorphic'.</p>\n<h3>When are two spaces homeomorphic?</h3>\n<p>To show that two spaces are homeomorphic, find a \nhomeomorphism between them.</p>\n<p><em>Roughly</em>, two spaces are homeomorphic iff one can be deformed into\nthe other by bending and reshaping, but without tearing or gluing.</p>\n<div class=\"theorem\">\n<h3>Equivalence relation</h3>\n<p>Being homeomorphic is an equivalence relation on the class of all topological\nspaces.</p>\n<dl>\n<dt>Reflexive</dt>\n<dd>Let \\( X \\) be a topological space. Then the identity map on \\( X \\) is \na homeomorphism.</dd>\n<dt>Symmetric</dt>\n<dd>Let \\( f : X \\to Y \\) be a homeomorphism. Then \\( f^{-1} : Y \\to X \\) is a homeomorphism.</dd>\n<dt>Transitive</dt>\n<dd>Let \\( f : X \\to Y \\) and \\( g : Y \\to Z \\) be homeomorphisms. Then \\( g \\circ f : X \\to Z \\) is a homeomorphism.</dd>\n</dl>\n<p>Thus, \\( X \\cong X \\); \\( X \\cong Y \\iff Y \\cong X \\);\n\\( X \\cong Y \\land Y \\cong Z \\implies X \\cong Z \\).</p>\n</div>",
+                "<h3>Knots homeomorphic to the circle</h3>\n<p>Some cases of homeomorphisms seem to defy the restriction to bending and reshaping: all knots\nare homeomorphic to the circle. To see this, take two knots of 1m string; choose \na point on each as a starting point; then, trace around each knot at the same \nrate until you reach the start again. This defines a homeomorphism. While we \ncan't bend a knot into a circle in \\( \\mathbb{R}^3 \\), any knot can be reshaped \ninto a circle if both are first placed in \\( \\mathbb{R}^4 \\).</p>\n<h4>Bijection with non-continuous inverse</h4>\n<p>The inverse of a continuous bijection <em class=\"em2\">need not be\ncontinuous</em>.</p>\n<p>An easy way of constructing an example is to consider continuous maps to a \nset with the discrete topology. For example, the identity map  \\( i :\n(\\mathbb{R}, \\text{discrete topology}) \\to (\\mathbb{R}, \\text{standard topology}) \\) is continuous, but the inverse, \\(  \\) \\( i^{-1} : (\\mathbb{R},\n\\text{standard topology}) \\to (\\mathbb{R}, \\text{discrete topology}) \\) is not\ncontinuous. </p>",
+                "",
+                "",
+                "1.1.14",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "rUFb!O,=%j",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Path connectedness. Definition",
+                "<p> Viewing topology from the lens of Euclidean space suggests a variant of the notion of connectedness: path-connectedness.</p><div class=\"recap\"> <h4> The Euclidean lens </h4> <p> A topological space is said to be an <em class=\"def\"> n-dimensional manifold </em> if it is Hausdorff and has an open cover by subsets each homeomorphic to an open ball in \\( \\mathbb{R}^n \\). Typical examples of 2-dimensional manifolds (surfaces) are the sphere, the torus and the Klein bottle. Manifolds are enormously important. </p></div><div class=\"minor_definition\"> <h4> Paths </h4> <p> Let \\( X \\) be a topological space. </p> <p> A <em class=\"def\"> path </em> in \\( X \\) is a {{c1::continuous map \\( \\gamma : [0, 1] \\to X \\)::something}}. If \\( \\gamma(0) = x \\) and \\( \\gamma(1) = y \\), then we say that {{c1::\\( \\gamma \\)::something}} is a path from \\( x \\) to \\( y \\). </p></div><div class=\"definition\"> <h3> Path-connectedness </h3> <p> A topological space \\( X \\) is <em class=\"def\"> path-connected </em> if it is non-empty and {{c1::for all \\( x, y \\in X \\), there exists a path from \\( x \\) to \\( y \\) in \\( X \\)}}. </p></div><p> The relevance to standard connectedness is quickly apparent:</p><div class=\"lemma\"> <p> Every path-connected space is connected. </p></div><p> Proof on reverse side. Note that the converse is false, and thus, path-connectedness is a stronger condition than vanilla conectedness.</p>",
+                "<h4>Every path-connected space is connected. Proof.</h4>\n<p>We know that all continuous maps from a path-connected space \\( X \\) to a discrete space \\( D \\) are constant iff \\( X \\) is \nconnected. Let \\( f \\) be an arbitrary continuous map from \\( X \\) to \\( D \\).&nbsp;Claim: \\( f \\) is constant. Let \\( x, y \\in X \\). There is a path \n\\( \\gamma : [0, 1] \\to X \\) from \\( x \\) to \\( y \\), and \\( f \\circ \\gamma \\) is\nthen a continuous map \\( [0, 1] \\to D \\). But \\( [0, 1] \\) is connected, so\n\\( f \\circ \\gamma \\) is constant, and in particular, \n\\( f(x) = f(\\gamma(0)) = f(\\gamma(1)) = f(y) \\), as required.</p>\n<h4>Proving connectedness</h4><p>It can be quite hard to prove that a space is connected by relying on the definition of connectedness. For example, how do you show that a disk in \\( \\mathbb{R}^2 \\) doesn't have a separation? The implication from path-connectedness to connectedness can be very useful in such situations.</p>",
+                "<h4>Convex sets</h4>\n<p>A subset \\( X \\) of \\( \\mathbb{R}^n \\) is <em class=\"def\">convex</em> iff\nfor all \\( x, y \\in X \\) and \\( t \\in [0, 1] \\), we have \n\\( (1-t)x + ty \\in X \\). For instance, the convex subsets of \\( \\mathbb{R} \\)\nare precisely the intervals. Every convex subset of \\( \\mathbb{R}^n \\) is \npath-connected (with \\( x, y \\in X \\), \n\\( t \\mapsto (1 - t)x + ty \\) is a path from \\( x \\) to \\( y \\)). Hence, every \nconvex subset of \\( \\mathbb{R}^n \\) is connected.\n</p>\n<p class=\"remark\">Geometrically, convex sets are those where every point in the\nset is connected by a straight line segment.</p>",
+                "Leinster p76",
+                "3.3.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "KYA;01:hZR",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Path-connectedness. 4 lemmas</div>",
+                "<p> Path-connectedness implies connectedness, the converse is {{c1::not generally true through::true or not true?}}.</p>\n<p class=\"remark\">The topologist's sine curve is an example of a space that is {{c1::connected but not path-connected::something}}. Leinster covers the topologist's sign curve in some detail.</p>\n<p> Below, we introduce an iff statement that does hold. It has the form: something ∧ connected ⟺ path-connected. After this, 3 conditions that each imply path-connectedness are presented.</p>\n<div class=\"lemma\">\n<h4>Path-connected ⟺ connected and {{c1::all points have a path-connected neighbourhood::something}}</h4>\n<p>Let \\( X \\) be a topological space. \\( X \\) is path-connected if and only if \\( X \\) is connected and {{c1::every point of \\( X \\) has at least one path-connected neighbourhood}}.</p></div>\n<div class=\"lemma\">\n<p>1. Corollary. Every connected {{c1::open subset of \\( \\mathbb{R}^d \\)::some type of Euclidean set}} is path-connected. </p>\n</div>\n<div class=\"lemma\">\n<h4>2. Path-connectedness and continuous functions</h4>\n<p>Let \\( f : X \\to Y \\) be a continuous map of topological spaces. If \\( X \\) is path-connected, then {{c1::so is \\( fX \\)}}. </p>\n</div>\n<div class=\"lemma\">\n<h4>3. Path-connectedness and products</h4>\n<p>The product of two {{c1::path-connected::path-connected...is there any other requirements?}} spaces is path-connected.</p>\n</div>",
+                "<p>Proofs</p>\n<h4>Path-connected ⟺ connected and all points have a path-connected neighbourhood</h4>\n<p>Let \\( X \\) be a topological space.</p>\n<h5>Forward implication</h5>\n<p>Assume that \\( X \\) is path-connected. As shown in a\nprevious card, \\( X \\) is connected as it is path-connected. In addition, we \nhave a path-connected neighbourhood for every point as the set \\( X \\) is a \nneighbourhood for every point and \\( X \\) is path-connected.</p>\n<h5>Reverse implication</h5>\n<p>Assume \\( X \\) is connected and all points have a \npath-connected neighbourhood. Let \\( x \\in X \\) and let \\( U \\) be the set of \nall elements having a path to \\( x \\):</p>\n<div>\\[ U = \\{ y \\in X : \\text{ there exists a path from } x \\text{ to } y \\text{ in } X \\} \\]</div>\n<p><em>Claim:</em> both \\( U \\) and \\( X \\setminus U \\) are open in \\( X \\).\nShow this in two parts.</p>\n<dl>\n<dt>\\( U \\) is open</dt>\n<dd>Let \\( y \\in U \\). By assumption, there is an path-connected neighbourhood \n\\( W \\) of \\( y \\). Let \\( w \\in W \\). There is a path from \\( x \\) to \n\\( w \\) as we can join a path from \\( x \\) to \\( y \\) and a path from \\( y \\) to \n\\( w \\). Thus, \\( W \\subset U \\). As every element of \\( U \\) has a \nneighbourhood contained in \\( U \\), \\( U \\) must be open (A2.9 in Leinster's \nnotes).</dd>\n<dt>\\( X \\setminus U \\) is open</dt>\n<dd>Let \\( y \\in X \\setminus U \\). Let \\( y \\in X \\setminus U \\). By assumption, \nthere is a path-connected neighbourhood \\( W \\) of \\( y \\). \n\\( W \\cap U = \\emptyset \\), as if there was  an element \\( t \\in W \\cap U \\) we\ncould find a path from \\( x \\) to \\( y \\) by  joining the path from \\( x \\) to\n\\( t \\) and the path from \\( t \\) to \\( y \\);  but such a path would contradict\n\\( y \\notin U \\). We can now state that \\( W \\in X \\setminus U \\), \nas \\( W \\subseteq X \\) and \\( W \\cap U = \\emptyset \\). As every element of \n\\( X \\setminus U \\) has a neighbourhood contained in \\( X \\setminus U \\), \n\\( X \\setminus U \\) must be open (again by A2.9).</dd>\n</dl>\n<p>So, we have both \\( U \\) and \\( X \\setminus U \\) being open. However, \\( X \\) is connected, so one of the sets must be empty\nand the other must equal \\( X \\). \\( x \\) itself is in \\( U \\), so \\( U = X \\).\n\\( U \\) is path-connected by definition, so \\( X \\) is path-connected.</p>\n<div><img src=\"IMG_2870.jpg\"></div>",
+                "",
+                "Leinster, p79",
+                "3.3.2",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "i@$D>]]0k:",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Topological properties",
+                "TODO",
+                "",
+                "",
+                "",
+                "1.6.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "B3e)Yf=D`|",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Product spaces",
+                "TODO",
+                "",
+                "",
+                "",
+                "1.10.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "H?)#P$h32E",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quotient spaces",
+                "TODO",
+                "",
+                "",
+                "",
+                "1.11.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "vJ~:W{nYoH",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness. Products",
+                "TODO",
+                "",
+                "",
+                "",
+                "2.4.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "nqbqbLq;%0",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness. Euclidean space",
+                "TODO",
+                "",
+                "",
+                "",
+                "2.2.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "fU%>)LMUV0",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness. Quotients",
+                "TODO",
+                "",
+                "",
+                "",
+                "2.6.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "qXZjA9gfu3",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Compactness. Metric spaces",
+                "TODO",
+                "",
+                "",
+                "",
+                "2.7.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "kUTrp]$kK7",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connectedness. The reals",
+                "TODO",
+                "",
+                "",
+                "",
+                "3.2.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "mT~NIjz|#Q",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connectedness and path-connectedness",
+                "TODO",
+                "",
+                "",
+                "",
+                "3.4.1",
+                "<img src=\"_topology_mindmap.png\">"
+            ],
+            "flags": 0,
+            "guid": "B]]$dw`o#>",
+            "newlyAdded": false,
+            "note_model_uuid": "0b6500f6-1fcd-11eb-8ed1-c8b29b3d6a4e",
+            "tags": [
+                "todo"
+            ]
+        }
+    ]
+}
